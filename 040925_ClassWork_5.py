@@ -9,10 +9,10 @@ user_rain = input('''Is it raining?
 if user_rain == "Yes" or user_rain == "yes":
     user_wind = input('''Is it windy?
 - ''')
-    if user_wind == "Yes" or user_rain == "yes":
+    if user_wind == "Yes" or user_wind == "yes":
         print("It is too windy for an umbrella.")
     elif user_wind == "No" or "no":
-        print("Take an ubrella")
+        print("Take an ubrella.")
 
 else:
     print("Enjoy your day.")
