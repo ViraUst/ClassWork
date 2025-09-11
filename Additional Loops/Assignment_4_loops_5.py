@@ -6,5 +6,3 @@ given = int(input('Enter a number: '))
 5
 for multiply in range(1,13):
     print(given, '*', multiply, '=', multiply*given)
-
-#I did the table up to number 9
