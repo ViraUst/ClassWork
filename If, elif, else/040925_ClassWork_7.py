@@ -3,7 +3,7 @@
 '''Description: Asks the user for a number and displays: "Too low" if the num. is
 lower than 10, if it's between 10 and 20  - "Correct", and otherwise - "Too high"'''
 
-user_number = int(input("Please enter a number: "))
+user_number = float(input("Please enter a number: "))
 
 if user_number < 10:
     print("Too low.")
@@ -11,4 +11,5 @@ if user_number < 10:
 elif user_number >= 10 and user_number <= 20:
     print("Correct.")
 else:
+
     print("Too high.")
