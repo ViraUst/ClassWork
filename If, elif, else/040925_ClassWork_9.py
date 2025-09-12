@@ -4,7 +4,7 @@
 number of units consumed. Rates: 5 cent a unit for first 100 units; 10 cent a unit
 for the next 150 units; 20 cent a unit for the next 150 units '''
 
-unitsConsumed = int(input("Enter the number of units consumed that month: "))
+unitsConsumed = float(input("Enter the number of units consumed that month: "))
 total100 = 5 * 100
 difference = 100 - unitsConsumed
 
@@ -23,4 +23,5 @@ elif unitsConsumed >100:
         next150units = 150 * 10 + total100
         cent20perUnit = unitsConsumed - 250
         over250units = next150units + cent20perUnit * 20
+
         print("The total water bill charges: ", over250units)
