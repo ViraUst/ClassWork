@@ -3,5 +3,6 @@
 #Desc: Program requests user name as input and returns name with a greeting
 name = input("Please enter your name: ")
 print("Hello, ", name)
-#Edit: deleted 'surname in the line above'
+#Edit: deleted 'surname' in the line above
+
 
