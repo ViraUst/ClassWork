@@ -1,12 +1,13 @@
 #Author: Vira Ustymenko
 #Date: 09th September 2025
 #Description: Prints the factorial of a given non-negative integer number
-
+count = 1
 userNum = int(input('Enter a non-negative integer number: '))
 if userNum > 0:
     print(userNum,end='! = ')
     for put in range(1,(userNum+1)):
         if userNum > 1:
+            count = put * count
             if put == userNum:
                 print(userNum)
             else:
@@ -15,6 +16,7 @@ if userNum > 0:
         else:
             print(put)
     #The line 'else:' just above is for when the entered number is 1
+    print("=",count)
 elif userNum == 0:
     print('0! = 1')
 
