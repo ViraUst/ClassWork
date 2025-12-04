@@ -2,7 +2,7 @@
 #Date: 25th November 2025
 #Description: Program converts Hexadecimal number to Unicode
 
-meh = input('Enter U+: ')
+meh = input('Enter UTF-8 number: ')
 setBinary = ''
 finalNum = ''
 
@@ -49,5 +49,6 @@ elif lenth<=21:
     fur = '10'+ finalNum[-18:-12] +'10'+finalNum[-12:-6]+'10'+finalNum[-6:]
     pi = '11110'+('0'*(16-lenth))+finalNum[:-18] + fur
     
-print("UTF-8 =",pi)
+print("Unicode =",pi)
+
     
