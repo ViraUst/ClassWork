@@ -82,11 +82,11 @@ while yesno =='+':
     currentPic = pictures[0]
     allEntered = ''#check for repeated letters
     
-    option = int(input("Enter a NUMBER from 1 to 25: "))-1
-    
+    #option = int(input("Enter a NUMBER from 1 to 25: "))-1 <-previous method of choosing a word
+    word = random.choice(words) #<- choice of a random word from a list
     diff = input("Choose a difficulty by typing a WORD(hard/medium/easy/very easy): ")
     
-    word = words[option]
+    #word = words[option] <-previous method of choosing a word
     iword = []
     picnum = 0 #to choose pictures later on
     y = 0
@@ -170,4 +170,5 @@ Guess the word: ''',dot)
 print('''
 Correctly guessed words:''',totalCorrect,"out of",totalwords)
 print('''
+
 Thank you for playing Hangman!''')
