@@ -11,7 +11,7 @@ print("3) From cups to ml")
 print("4) From ml to teaspoons")
 print("5) From ml to tablespoons")
 print("6) From ml to cups")
-conversion = float(input("Please enter the conversion (number from 1 to 5) and press ENTER:"))
+conversion = int(input("Please enter the conversion (number from 1 to 5) and press ENTER:"))
 if conversion == 1:
     teaspoons = float(input("Please enter number of teaspoons: "))
     ml = teaspoons * 5
