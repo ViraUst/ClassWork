@@ -1,0 +1,7 @@
+Your solutions are excellent.
+
+Question 5 you could use .split(' ') on the input string instead of seeking and slicing on the space ' '
+
+Question 6 doesn't work if you input 193 or a value within 10 less than 200.
+
+
