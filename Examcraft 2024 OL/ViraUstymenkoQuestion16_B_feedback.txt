@@ -1,0 +1,16 @@
+Your code is very good.
+
+The writing in the paper is a bit misleading.
+
+When they say 'amend the program so the keywords can be in upper or lower case'
+it should be able to deal with WEATHER or any correct spelling.
+
+I know the examples are weather and Weather but you would not get full marks for just these
+two cases.
+
+With anything like this it is always best to use .upper() or .lower() on the input.
+
+prompt = prompt.lower()
+
+would be the only change necessary to work for any version of the input. 
+

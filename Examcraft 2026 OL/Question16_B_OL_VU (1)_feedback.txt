@@ -1,0 +1,22 @@
+Your code is excellent.
+
+If I was to make a few suggestions.
+
+The list on line 7 DaysOfW = ['Please enter the steps you did on Monday: ', ...
+                              
+I would just put the days ['Monday','Tuesday' etc in here
+
+Inside the for loop on line 15, you could construct the print string and pass it to the input.
+
+Something like:
+
+for i in range(7):#you could replace 7 with len(DaysOfW)
+    prompt = 'Please enter the steps you did on '+DaysOfW[o] #You could replace o with i from the loop
+    StepNum = int(input(prompt))
+    ...
+
+On line 22: average = Sum/7
+
+- you could use len(DaysOfW) instead of 7
+
+Small suggestions, but your code is really good

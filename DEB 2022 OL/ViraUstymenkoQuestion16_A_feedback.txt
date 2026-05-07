@@ -1,0 +1,8 @@
+Your code is very good.
+
+On line 25 where you compare the yesno input, I would always make a conversion to upper()
+or lower() or capatilize() to make sure it works for all varieties like NO,no,nO,No
+
+The same for the while loop checking for END as an input.
+
+If I put in an age less than 12 the program crashes. 

@@ -1,0 +1,7 @@
+Your code is very good.
+
+The intention in the question was you take in all the flights as input and then print
+a summary of which are direct and which are indirect.
+
+It has been a common misunderstanding across the class but just make sure you could
+write the code to do this if necessary.

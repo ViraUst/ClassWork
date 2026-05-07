@@ -1,0 +1,15 @@
+Your code is very good, however, you have to sort a list before you calculate the median
+-List1.sort() - it doesn't return a value so you just call it on the list.
+Also, on
+
+line 13: median = (List1[medNum]+List1[medNum+1])/2
+
+-you need to change it to
+
+median = (List1[medNum]+List1[medNum-1])/2
+
+The formula you have is perfect, however note that in math, when counting items in a list
+for the median we start at 1,2,3, ...
+
+while in Python, for indexing into the list we start at 0,1,2,3,... so we
+need to allow for this in the code

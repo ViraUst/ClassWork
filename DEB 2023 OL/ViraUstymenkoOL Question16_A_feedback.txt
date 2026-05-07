@@ -1,0 +1,6 @@
+Your code is very good.
+
+On line 17: if flight_num == "EI121" or flight_num == "ei121":
+    
+I would adivse on input you make flight_num = flight_num.upper() or .lower() instead of
+coding different combinations in an or statement but it is a small point.
