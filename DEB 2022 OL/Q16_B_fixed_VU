@@ -1,0 +1,16 @@
+#Author: Vira Ustymenko
+#Date: 11th May 2026
+#Description: DEB 2022 Q. 16 (b) with feedback changes
+
+List1 = [4,5,9,8,10,17,99,77]
+
+lenth = len(List1)
+
+medNum = lenth//2
+List1.sort()
+if lenth%2 == 1:
+    median = List1[medNum]
+else:
+    median = (List1[medNum]+List1[medNum-1])/2
+
+print("Median is:", median)
