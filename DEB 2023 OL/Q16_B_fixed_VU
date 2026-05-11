@@ -1,0 +1,21 @@
+#Author: Vira Ustymenko
+#Date: 11th May 2026
+#Description: DEB 2023 Q16(b) with feedback changes
+
+NumberOfFlights = int(input("Enter how many flights you have:"))
+flightNumbers = []
+for i in range(NumberOfFlights):
+    new_number= input("Enter your flight number: ")
+    flightNumbers.append(new_number)
+#122,125,132,135,155
+direct = 0
+indirect = 0
+
+for i in flightNumbers:
+    if i[-1] == '2':
+        flight_type = 'direct'
+        direct += 1
+    elif i[-1] == '5':
+        flight_type = 'indirect'
+        indirect += 1
+    print("Flight number ",i,", Type: ", flight_type, sep='')
