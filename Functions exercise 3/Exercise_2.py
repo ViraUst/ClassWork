@@ -21,7 +21,7 @@ def ceasar_cipher(lock,key,turn):
             locking = chr(new_char_num)
             locked = locked+locking
         else:
-            locked = h
+            locked = locked+h
     result = locked
     return result
 
