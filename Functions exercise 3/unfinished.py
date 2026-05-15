@@ -1,11 +1,11 @@
 #Author: Vira Ustymenko
 #Date: 14th May, 2026
-#Description: Ceasar cipher
+#Description: Ceasar cipher Ex.1
 
 def ceasar_cipher(lock,key,turn):
     Alpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
     if turn == '-':
-        key = key*-1
+        key = key * -1
     else:
         pass
     if key >0 or key<0:
@@ -16,8 +16,8 @@ def ceasar_cipher(lock,key,turn):
         for i in lock:
             if i.isalpha()==True:
                 index = Alpha.index(i)+key
-                if index>len(Alpha-1):
-                    index = index-25
+                if index>(len(Alpha)-1):
+                    index = index-26
                 locking = Alpha[index]
                 locked += locking
             else:
