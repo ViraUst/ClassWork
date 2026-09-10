@@ -5,23 +5,22 @@
 answer = True
 L1 = []
 print("Please enter elements of a list, when finished enter 'f'")
-while answer is not False:
+while answer:
     el = input("Enter element: ")
-    if el == 'f':
+    if el.lower() == 'f':
         answer = False
-        break
     else:
         L1.append(el)
+print("Your list:", L1)
 
 find = input("Enter element you wish to find: ")
 ind = 0
-iF = False
 for i in L1:
     if i == find:
-        iF = True
+        answer = True
         print(ind)
         break
     else:
         ind += 1
-if iF == False:
+if answer == False:
     print(-1)
